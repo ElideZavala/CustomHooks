@@ -1,11 +1,13 @@
 // import CounterApp from "./CounterApp";
-import TodoApp from "./TodoApp";
+// import TodoApp from "./TodoApp";
+import MouseApp from "./MouseApp";
 
 function App() {
   return (
     <div >
       {/* <CounterApp /> */}
-      <TodoApp/>
+      {/* <TodoApp/> */}
+      <MouseApp/>
     </div>
   );
 }
