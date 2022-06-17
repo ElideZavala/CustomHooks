@@ -16,6 +16,10 @@ const useMousePosition = () => {
 		}
 		// Cuando el mouse se mueve, ejecuta la función
 		window.addEventListener('mousemove', handleMouseMove)
+
+		return () => {
+			window.removeEventListener('mousemove', handleMouseMove)
+		}
 	})
 		
 	return position;
